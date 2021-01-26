@@ -1,0 +1,19 @@
+.logo {
+  display: inline-block;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.174;
+  text-decoration: none;
+  align-self: center;
+  min-width: 145px;
+}
+.logo__left-part {
+  color: var(--accent-color);
+}
+.logo__right-part {
+  margin-left: -5px;
+}
+header .logo__right-part {
+  color: var(--black-color);
+}

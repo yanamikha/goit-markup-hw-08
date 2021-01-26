@@ -1,0 +1,39 @@
+
+.hero-block__label {
+  font-weight: 900;
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-block { 
+  padding: 118px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+   background-image: linear-gradient(
+       rgba(47, 48, 58, 0.4),
+       rgba(47, 48, 58, 0.4)
+     ),
+     url("../image/hero/hero-mobile.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center top; 
+}
+.hero-block__button {
+  margin-top: 30px;
+} 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+   screen and (min-resolution: 192dpi) and (min-width: 320px),
+   screen and (min-resolution: 2dppx) and (min-width: 320px) {
+   .hero-block {
+     background-image: linear-gradient(
+         rgba(47, 48, 58, 0.4),
+         rgba(47, 48, 58, 0.4)
+       ),
+       url("../image/hero/hero-mobile@2x.jpg");
+   }
+ }
